@@ -1,0 +1,221 @@
+@font-face{
+	font-family: Trajan Pro;
+	src:url(image/Trajan_Pro_Regular.ttf);
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: Trajan Pro;
+	src:url(image/Trajan_Pro_Bold.ttf);
+	font-weight: bold;
+}
+
+.header{
+	width: 100%;
+	background-color: #fff;
+}
+
+#topimage{
+	margin: 0 auto;
+	width: 1200px;
+	height: 100%;
+	display: block;
+}
+
+.headnav{
+	background-color: #DC8320;
+	width: 100%;
+	height: 55px;
+	display: block;
+}
+
+.nav{
+	color: #fff;
+	font-family: Trajan Pro;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0 0 0 20%;
+	padding: 12px 0;
+	vertical-align: middle;
+}
+
+#arrowleft{
+	display: inline-block;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+a{
+	text-decoration: none;
+}
+
+#title{
+	width: 700px;
+	text-align: center;
+	margin: 90px auto 30px;
+}
+
+h1{
+	font-family: Trajan Pro;
+	font-weight: bold;
+	font-size: 34px;
+	color: #DC8320;
+	-webkit-font-smoothing:antialiased;
+}
+
+.content{
+	width: 900px;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+.column{
+	width: 278px;
+	margin: 30px 5px 90px;
+	border:1px solid #C1711F;
+	padding: 0px 5px 20px;
+	float: left;
+}
+
+.subtitle{
+	font-family: Palatino;
+	font-weight: bold;
+	font-size:18px;
+	color: #DC8320;
+	text-align: center;
+}
+
+.align{
+		vertical-align: middle;
+	height: 60px;
+}
+
+.imagestyle{
+	display: block;
+	margin: 0 auto;
+}
+
+.textstyle{
+	margin: 20px 10px;
+	font-family: Palatino;
+	font-weight: normal;
+	font-size:16px;
+	line-height: 23px;
+	color: #000;
+	text-align: left;
+	-webkit-font-smoothing: antialiased;
+}
+
+.btnstyle{
+	background-color: #DC8320;
+	width: 250px;
+	height: 50px;
+	margin: 30px auto;
+	text-align: center;
+	font-family: Trajan Pro;
+	font-size: 20px;
+	color: #fff;
+	border-style: none;
+	display: block;
+	cursor: pointer;
+}
+
+#lotus {
+    margin-top: -95px;
+    margin-right: 15%;
+    float: right;
+    width: 300px;
+}
+
+#footer{
+	width: 100%;
+	height: 100px;
+	background-image: linear-gradient(to right, #CCE58D, #679C67);
+}
+
+#dropdown{
+	width: 258px;
+	height: 40px;
+	border-radius: 0;
+	border:0;
+	background-color: #DC8320;
+	font-family: Arial;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 20px
+}
+
+#placeInfo{
+	margin: 20px 0;
+	display: block;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+#result{
+    color: #dc8320;
+    font-weight: bold;
+    border-bottom:1px solid #DC8320;
+}
+
+@media all and (max-width: 576px){
+	#topimage{
+		content:url("image/ZhuanFalunM.jpg");
+		width: 100%;
+		margin: 0;
+	}
+
+	.headnav{
+		height: 40px;
+	}
+
+	.nav {
+    font-size: 12px;
+    margin: 0 0 0 3%;
+    padding: 5px 0;
+	}
+
+	#arrowleft {
+    margin-right: 13px;
+	}
+
+	#title, #title > h1 {
+    width: 100%;
+    text-align: center;
+    margin: 60px auto 30px;
+    font-size: 28px;
+	}
+
+	.content{
+		width: auto;
+		height: 2200px;
+	}
+
+	.column {
+    width: 90%;
+    margin: 30px auto 30px;
+    border: 1px solid #C1711F;
+    padding: 0px 5px 20px;
+    display: block;
+    float: none;
+	}
+
+	select {
+    text-transform: none;
+    border: 1px solid #888;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
